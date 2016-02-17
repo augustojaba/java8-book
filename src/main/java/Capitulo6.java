@@ -35,7 +35,7 @@ public class Capitulo6 {
 		
 		System.out.println();
 		
-		Runnable bloco = usuarios.get(0)::tornaModerador;
+		Runnable bloco = usuarios.get(0)::tornarModerador;
 		bloco.run();
 		usuarios.forEach(System.out::println);
 		

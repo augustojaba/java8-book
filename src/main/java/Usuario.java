@@ -30,7 +30,7 @@ class Usuario {
 		return moderador;
 	}
 
-	public void tornaModerador() {
+	public void tornarModerador() {
 		this.moderador = true;
 	}
 
