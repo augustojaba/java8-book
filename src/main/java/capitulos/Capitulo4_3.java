@@ -1,7 +1,10 @@
+package capitulos;
 
 
 import java.util.ArrayList;
 import java.util.List;
+
+import modelo.Usuario;
 
 public class Capitulo4_3 {
 	

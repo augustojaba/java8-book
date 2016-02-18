@@ -1,4 +1,4 @@
-package capitulo3;
+package capitulos;
 
 public class Capitulo3_4 {
 

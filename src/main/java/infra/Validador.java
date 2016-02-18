@@ -1,4 +1,4 @@
-package capitulo3;
+package infra;
 
 @FunctionalInterface
 public interface Validador<T> {

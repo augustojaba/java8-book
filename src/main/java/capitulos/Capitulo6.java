@@ -1,12 +1,14 @@
+package capitulos;
 import static java.util.Comparator.comparingInt;
-import infra.InterfaceFuncionalCriadora;
 
 import java.util.List;
 import java.util.function.BiFunction;
-import java.util.function.Function;
 import java.util.function.IntBinaryOperator;
 import java.util.function.Supplier;
 import java.util.function.ToIntBiFunction;
+
+import infra.InterfaceFuncionalCriadora;
+import modelo.Usuario;
 
 
 public class Capitulo6 {

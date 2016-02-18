@@ -1,4 +1,6 @@
-package capitulo3;
+package capitulos;
+
+import infra.Validador;
 
 public class Capitulo3_2 {
 

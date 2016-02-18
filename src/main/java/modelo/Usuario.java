@@ -1,7 +1,8 @@
+package modelo;
 import java.util.Arrays;
 import java.util.List;
 
-class Usuario {
+public class Usuario {
 
 	private String nome;
 	private Integer pontos;
@@ -32,6 +33,10 @@ class Usuario {
 
 	public void tornarModerador() {
 		this.moderador = true;
+	}
+	
+	public void removerPerfilModerador() {
+		this.moderador = false;
 	}
 
 	@Override

@@ -1,8 +1,12 @@
+package capitulos;
+import static java.util.Comparator.comparing;
+import static java.util.Comparator.comparingInt;
+import static java.util.Comparator.naturalOrder;
+
 import java.util.Arrays;
-
-import static java.util.Comparator.*;
-
 import java.util.List;
+
+import modelo.Usuario;
 
 
 public class Capitulo5_3 {
