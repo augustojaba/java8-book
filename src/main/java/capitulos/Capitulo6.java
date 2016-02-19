@@ -50,7 +50,7 @@ public class Capitulo6 {
 		InterfaceFuncionalCriadora<Usuario, String, Integer, Boolean> criadorUsuario = Usuario::new;
 		System.out.println(criadorUsuario.apply("Usuario teste criado", 120, false).toString());
 		
-		//Não funcionou essa parte de instânciação com new no Vetor.
+		//Não funcionou essa parte de instanciação com new no Vetor.
 		//Supplier<int[]> meuVetor = int[25]::new;
 		
 		//6.7
