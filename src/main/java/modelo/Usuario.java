@@ -46,12 +46,13 @@ public class Usuario {
 	
 	public static List<Usuario> pegarUmBucadoDeUsuarioFakes() {
 		Usuario user1 = new Usuario("ZZJosé Augusto", 160, false);
-		Usuario user2 = new Usuario("José Arnold", 160, false);
-		Usuario user3 = new Usuario("Antonio Augusto", 90, false);
-		Usuario user4 = new Usuario("Luis Augusto", 160, false);
-		Usuario user5 = new Usuario("Francisco José", 190, false);
+		Usuario user2 = new Usuario("Antonio Arnold", 140, false);
+		Usuario user3 = new Usuario("José Arnold", 160, false);
+		Usuario user4 = new Usuario("Antonio Augusto", 90, false);
+		Usuario user5 = new Usuario("Luis Augusto", 160, false);
+		Usuario user6 = new Usuario("Francisco José", 190, false);
 		
-		return Arrays.asList(user1, user2, user3, user4, user5);
+		return Arrays.asList(user1, user2, user3, user4, user5, user6);
 	}
 
 }
