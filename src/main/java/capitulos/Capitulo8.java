@@ -59,6 +59,8 @@ public class Capitulo8 {
 			.reduce(0, (atual, a) -> atual + a.getPontos(), Integer::sum);
 		System.out.println(soma);
 		
+		System.out.println("\n8.6\n");
+		
 	}
 
 }
