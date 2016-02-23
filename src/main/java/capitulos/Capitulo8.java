@@ -49,6 +49,15 @@ public class Capitulo8 {
 		.findAny();
 		
 		System.out.println("\n8.5\n");
+		usuarios.forEach(System.out::println);
+		Long multiplicacao = usuarios.stream()
+			.mapToLong(Usuario::getPontos)
+			.reduce(1, (a,b) -> a*b);
+		System.out.println(multiplicacao);
+		
+		Integer soma = usuarios.stream()
+			.reduce(0, (atual, a) -> atual + a.getPontos(), Integer::sum);
+		System.out.println(soma);
 		
 	}
 
